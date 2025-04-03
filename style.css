@@ -1,0 +1,110 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQoU2NkQAMvv9//L86pyIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDxtyfHjLg71QAAAABJRU5ErkJggg==
+  ) repeat;
+  }
+  
+  a {
+    color: #0050C1;
+  }
+  
+  a:hover, a:visited:hover {
+    color: #50C100;
+  }
+  
+  a:visited {
+    color: #00B0C1;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #50C100;
+  }
+  
+  h1:hover {
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  h2 {
+    font-style: bold;
+    color: #00B0C1;
+  }
+  
+  h3 {
+    color: #0050C1;
+  }
+  
+  h4 {
+    text-decoration: underline;
+  }
+  
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    max-width: 600px;
+  }
+  
+  canvas {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+  
+  /* Navigation Styling for Gallery page. */
+  .nav-2 {
+    margin: auto;
+    text-align: left;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+  }
+  
+  .nav-2 h1 {
+    font-size: 30px;
+    max-width: 10%;
+    padding-left: 20px;
+  }
+  
+  .nav-2 a {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+
+  .nav-2 p {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+
+  .footnav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .footnav p {
+    text-align: right;
+  }
+
+  .footfloat1 {
+    flex: auto;
+  }
+  
+  .footfloat2 {
+    flex: auto;
+    font-size: small;
+    font-style: italic;
+  }
