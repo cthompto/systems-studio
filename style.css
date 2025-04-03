@@ -1,25 +1,29 @@
 body {
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQoU2NkQAMvv9//L86pyIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDxtyfHjLg71QAAAABJRU5ErkJggg==
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAL0lEQVQIW2NkYGD4D8QogBEkKCUlxfDs2TO4BCNQ4D9IACYBosEqYUpgEiiCMEkAnkARTw6bBeUAAAAASUVORK5CYII=
   ) repeat;
   }
   
   a {
-    color: #0050C1;
+    color: #ffeecc;
   }
   
   a:hover, a:visited:hover {
-    color: #50C100;
+    color: #eeccff;
   }
   
   a:visited {
-    color: #00B0C1;
+    color: #ccffee;
   }
   
   h1 {
     font-style: italic;
-    color: #50C100;
+    color: #eeccff;
+  }
+
+  p {
+    color: white;
   }
   
   h1:hover {
@@ -31,11 +35,11 @@ body {
   
   h2 {
     font-style: bold;
-    color: #00B0C1;
+    color: #ccffee;
   }
   
   h3 {
-    color: #0050C1;
+    color: #ffeecc;
   }
   
   h4 {
